@@ -16,9 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Add the number of internships planned for this hour
+      - name: Add an internship and a fact per planned commit
         env:
           PYTHONIOENCODING: utf-8
+          FILTER_WORDS: ${{ secrets.FILTER_WORDS }}
         run: |
           N=$(python3 scripts/plan.py)
           echo "Commits planned for this hour: $N"
@@ -26,11 +27,13 @@ jobs:
           git config user.name  "Arthurized"
           git config user.email "219266778+Arthurized@users.noreply.github.com"
           for i in $(seq 1 "$N"); do
-            if ! MSG=$(python3 scripts/internships.py); then
-              echo "No new internships right now, stopping"
-              break
-            fi
-            git add internships.md
+            IMSG=$(python3 scripts/internships.py) || IMSG=""
+            FMSG=$(python3 scripts/fact.py) || FMSG=""
+            if [ -n "$IMSG" ] && [ -n "$FMSG" ]; then MSG="$IMSG; $FMSG"
+            elif [ -n "$IMSG" ]; then MSG="$IMSG"
+            elif [ -n "$FMSG" ]; then MSG="Add fact"
+            else echo "Nothing new to add, skipping"; continue; fi
+            git add internships.md facts.md
             git commit -m "$MSG"
             sleep $((RANDOM % 20))
           done
