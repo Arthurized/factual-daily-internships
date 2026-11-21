@@ -24,7 +24,7 @@ jobs:
           git config user.name  "Arthurized"
           git config user.email "219266778+Arthurized@users.noreply.github.com"
           # words from filter.txt joined as word1|word2|...
-          BLOCK=$(grep -v '^\s*#' filter.txt | tr -d '' | sed '/^\s*$/d' | paste -sd'|')
+          BLOCK=$(grep -v '^\s*#' filter.txt | tr -d '\r' | sed '/^\s*$/d' | paste -sd'|')
           for i in $(seq 1 "$N"); do
             # fetch a fact we don't already have (up to 10 tries)
             FACT=""
