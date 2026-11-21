@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Commit the number planned for this hour
+      - name: Add the number of facts planned for this hour
         run: |
           N=$(python3 scripts/plan.py)
           echo "Commits planned for this hour: $N"
@@ -24,9 +24,18 @@ jobs:
           git config user.name  "Arthurized"
           git config user.email "219266778+Arthurized@users.noreply.github.com"
           for i in $(seq 1 "$N"); do
-            date -u '+%Y-%m-%d %H:%M:%S' > log.txt
-            git add log.txt
-            git commit -m "update log"
+            # fetch a fact we don't already have (up to 5 tries)
+            FACT=""
+            for try in 1 2 3 4 5; do
+              F=$(curl -sf --max-time 15 -H 'Accept: application/json' \
+                    'https://uselessfacts.jsph.pl/api/v2/facts/random?language=en' | jq -r '.text // empty')
+              if [ -n "$F" ] && ! grep -qF -- "$F" facts.md; then FACT="$F"; break; fi
+              sleep 2
+            done
+            if [ -z "$FACT" ]; then echo "No new fact available, skipping"; continue; fi
+            echo "- $(date -u '+%Y-%m-%d %H:%M') — $FACT" >> facts.md
+            git add facts.md
+            git commit -m "Add fact: ${FACT:0:60}"
             sleep $((RANDOM % 20))
           done
           git push
