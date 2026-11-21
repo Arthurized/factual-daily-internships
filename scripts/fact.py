@@ -1,7 +1,7 @@
 """Append one new random fact to facts.md.
 
 Facts containing a word from the FILTER_WORDS secret (one word per line,
-case-insensitive, matches word starts) are skipped. Prints "add fact" on
+case-insensitive) are skipped. Prints "add fact" on
 success; exits with status 1 if no usable fact could be fetched.
 """
 import json
