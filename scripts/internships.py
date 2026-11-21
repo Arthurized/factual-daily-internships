@@ -1,7 +1,7 @@
 """Append one new Summer 2027 internship from Jobright's GitHub lists to internships.md.
 
 Prints the commit message on success. Exits with status 1 if there is
-nothing new to add (or the lists can't be fetched).
+nothing new to add
 """
 import re
 import sys
