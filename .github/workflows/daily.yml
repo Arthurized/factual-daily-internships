@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # plan.py counts today's commits from history
 
       - name: Add an internship and a fact per planned commit, at random times
         env:
@@ -23,18 +25,36 @@ jobs:
           FILTER_WORDS: ${{ secrets.FILTER_WORDS }}
         run: |
           N=$(python3 scripts/plan.py)
-          echo "Commits planned for this hour: $N"
+          echo "Commits due now: $N"
           [ "$N" -eq 0 ] && exit 0
+          [ "$N" -gt 20 ] && N=20
           git config user.name  "Arthurized"
           git config user.email "219266778+Arthurized@users.noreply.github.com"
-          # N random moments (seconds from now) within the next 55 minutes,
-          # never past midnight UTC so the commits stay on the planned day
+
+          sync() {   # pull, undoing a failed rebase so the loop can continue
+            git pull -q --rebase || { git rebase --abort 2>/dev/null; return 1; }
+          }
+          push() {   # push; if rejected, pull and retry
+            for attempt in 1 2 3; do
+              git push -q && return 0
+              sync || true
+              sleep 5
+            done
+            echo "Push failed; commits stay local and will be retried"
+            return 1
+          }
+
+          # N random moments within the next 55 minutes, before midnight UTC
           OFFSETS=$(python3 scripts/offsets.py "$N")
           echo "Commit offsets (s): $OFFSETS"
-          ELAPSED=0
+          START=$(date +%s); DAY=$(date -u +%F)
           for OFF in $OFFSETS; do
-            sleep $((OFF - ELAPSED)); ELAPSED=$OFF
-            git pull -q --rebase   # pick up any edits pushed while waiting
+            WAIT=$((START + OFF - $(date +%s)))   # wait until the planned moment
+            [ "$WAIT" -gt 0 ] && sleep "$WAIT"
+            if [ "$(date -u +%F)" != "$DAY" ]; then
+              echo "Day changed, stopping"; break
+            fi
+            sync || true
             IMSG=$(python3 scripts/internships.py) || IMSG=""
             FMSG=$(python3 scripts/fact.py) || FMSG=""
             if [ -n "$IMSG" ] && [ -n "$FMSG" ]; then MSG="$IMSG; $FMSG"
@@ -43,6 +63,7 @@ jobs:
             else echo "Nothing new to add, skipping"; continue; fi
             git add internships.md facts.md
             git commit -q -m "$MSG"
-            git push -q
+            push || true
             echo "Committed at $(date -u +%H:%M:%S)"
           done
+          push || true

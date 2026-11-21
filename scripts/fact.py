@@ -25,7 +25,7 @@ for _ in range(10):
     try:
         req = urllib.request.Request(URL, headers={"Accept": "application/json"})
         with urllib.request.urlopen(req, timeout=15) as r:
-            fact = json.load(r).get("text", "").strip()
+            fact = " ".join(json.load(r).get("text", "").split())
     except Exception:
         fact = ""
     if fact and fact not in existing and not (blocked and blocked.search(fact)):

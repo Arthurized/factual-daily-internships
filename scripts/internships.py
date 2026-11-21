@@ -19,6 +19,18 @@ LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 OUT = "internships.md"
 
 
+def clean(text):
+    """Strip HTML tags (e.g. </br>) and collapse whitespace."""
+    text = re.sub(r"<[^>]*>", ", ", text)
+    text = re.sub(r"\s+", " ", text)
+    return re.sub(r"(,\s*)+", ", ", text).strip(" ,*")
+
+
+def escape(text):
+    """Make text safe inside markdown link text."""
+    return text.replace("[", "\\[").replace("]", "\\]")
+
+
 def fetch(url):
     for branch in ("master", "main"):
         try:
@@ -54,7 +66,8 @@ def rows(source, text):
             category = "Software Engineering"
         else:
             continue  # general engineering roles aren't wanted
-        yield category, company, title, link, cells[2], cells[3], cells[4]
+        yield (category, escape(clean(company)), escape(clean(title)), link,
+               clean(cells[2]), clean(cells[3]), clean(cells[4]))
 
 
 def main():
