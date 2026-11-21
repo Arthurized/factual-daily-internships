@@ -13,10 +13,11 @@ concurrency: daily-log
 jobs:
   commit:
     runs-on: ubuntu-latest
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
-      - name: Add an internship and a fact per planned commit
+      - name: Add an internship and a fact per planned commit, at random times
         env:
           PYTHONIOENCODING: utf-8
           FILTER_WORDS: ${{ secrets.FILTER_WORDS }}
@@ -26,7 +27,14 @@ jobs:
           [ "$N" -eq 0 ] && exit 0
           git config user.name  "Arthurized"
           git config user.email "219266778+Arthurized@users.noreply.github.com"
-          for i in $(seq 1 "$N"); do
+          # N random moments (seconds from now) within the next 55 minutes,
+          # never past midnight UTC so the commits stay on the planned day
+          OFFSETS=$(python3 scripts/offsets.py "$N")
+          echo "Commit offsets (s): $OFFSETS"
+          ELAPSED=0
+          for OFF in $OFFSETS; do
+            sleep $((OFF - ELAPSED)); ELAPSED=$OFF
+            git pull -q --rebase   # pick up any edits pushed while waiting
             IMSG=$(python3 scripts/internships.py) || IMSG=""
             FMSG=$(python3 scripts/fact.py) || FMSG=""
             if [ -n "$IMSG" ] && [ -n "$FMSG" ]; then MSG="$IMSG; $FMSG"
@@ -34,7 +42,7 @@ jobs:
             elif [ -n "$FMSG" ]; then MSG="Add fact"
             else echo "Nothing new to add, skipping"; continue; fi
             git add internships.md facts.md
-            git commit -m "$MSG"
-            sleep $((RANDOM % 20))
+            git commit -q -m "$MSG"
+            git push -q
+            echo "Committed at $(date -u +%H:%M:%S)"
           done
-          git push
