@@ -1,10 +1,4 @@
-"""Print how many commits to make in the current UTC hour.
-
-Every hourly run on the same day rebuilds the same plan from the date:
-  - total commits today: 1-20, weight 1/k (1 is most likely, 20 rarest)
-  - a random 4-hour window somewhere in the day
-  - each commit lands in a random hour inside that window
-"""
+"""Something useful. Probably..."""
 import random
 from datetime import datetime, timezone
 
