@@ -4,3 +4,4 @@ One random fact per entry, collected over time.
 
 - 2026-11-21 21:13 — The crack of a whip is actually a tiny sonic boom, since the tip breaks the sound barrier.
 - 2026-11-21 21:19 — Every day, 7% of the US eats at McDonald’s.
+- 2026-11-22 23:55 — In 1912 a law passed in Nebraska where drivers in the country at night were required to stop every 150 yards, send up a skyrocket, wait eight minutes for the road to clear before proceeding cautiously, all the while blowing their horn and shooting off flares.
