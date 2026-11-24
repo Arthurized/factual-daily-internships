@@ -7,3 +7,4 @@ One random fact per entry, collected over time.
 - 2026-11-22 23:55 — In 1912 a law passed in Nebraska where drivers in the country at night were required to stop every 150 yards, send up a skyrocket, wait eight minutes for the road to clear before proceeding cautiously, all the while blowing their horn and shooting off flares.
 - 2026-11-23 21:03 — Half of all Americans live within 50 miles of their birthplace.
 - 2026-11-23 21:14 — Owls are the only birds that can see the color blue.
+- 2026-11-24 16:11 — The sun is 330,330 times larger than the earth.
