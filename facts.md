@@ -9,3 +9,4 @@ One random fact per entry, collected over time.
 - 2026-11-23 21:14 — Owls are the only birds that can see the color blue.
 - 2026-11-24 16:11 — The sun is 330,330 times larger than the earth.
 - 2026-11-25 10:11 — Studies have shown that children laugh an average of 300 times/day and adults 17 times/day, making the average child more optimistic, curious, and creative than the adult.
+- 2026-11-25 10:16 — Baby Ruth candy bar was named after Grover Cleveland’s daughter, Ruth, not the baseball player.
