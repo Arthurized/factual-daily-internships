@@ -8,3 +8,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Job
 - 2026-11-23 · **Cybersecurity** · Strava — [Software Engineering Intern, Server, Security](https://jobright.ai/jobs/info/6b04718e4c822a415e670df2) · San Francisco, CA, United States · Hybrid · posted Nov 23
 - 2026-11-23 · **Cybersecurity** · TikTok — [Client Security & Data Foundation Software Engineer - Intern (TikTok BRIC) - 2027 Start](https://jobright.ai/jobs/info/6b03a6016300701fae1ae2b5) · San Jose, CA, United States · On Site · posted Nov 22
 - 2026-11-24 · **Cybersecurity** · Illumio — [Engineering Intern, Security Platforms](https://jobright.ai/jobs/info/6b04d05913646880439e5af8) · Sunnyvale, CA, United States · On Site · posted Nov 23
+- 2026-11-25 · **Cybersecurity** · Hewlett Packard Enterprise — [Firmware Engineering Security Intern](https://jobright.ai/jobs/info/6b064bea3e56157448ed4a94) · Sunnyvale, CA, United States · On Site · posted Nov 24
