@@ -23,6 +23,7 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
           FILTER_WORDS: ${{ secrets.FILTER_WORDS }}
+          SOURCE_CACHE: ${{ runner.temp }}   # download each source once per run
         run: |
           N=$(python3 scripts/plan.py)
           echo "Commits due now: $N"
