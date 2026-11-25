@@ -11,3 +11,4 @@ One random fact per entry, collected over time.
 - 2026-11-25 10:11 — Studies have shown that children laugh an average of 300 times/day and adults 17 times/day, making the average child more optimistic, curious, and creative than the adult.
 - 2026-11-25 10:16 — Baby Ruth candy bar was named after Grover Cleveland’s daughter, Ruth, not the baseball player.
 - 2026-11-25 10:20 — 3.6 cans of Spam are consumed each second.
+- 2026-11-25 10:27 — Shakespeare invented the word "assassination" and "bump."
