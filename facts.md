@@ -12,3 +12,4 @@ One random fact per entry, collected over time.
 - 2026-11-25 10:16 — Baby Ruth candy bar was named after Grover Cleveland’s daughter, Ruth, not the baseball player.
 - 2026-11-25 10:20 — 3.6 cans of Spam are consumed each second.
 - 2026-11-25 10:27 — Shakespeare invented the word "assassination" and "bump."
+- 2026-11-26 12:58 — Thirty-five percent of people who use personal ads for dating are already married.
