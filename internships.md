@@ -10,3 +10,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Sim
 - 2026-11-25 · **Cybersecurity** · Hewlett Packard Enterprise — [Firmware Engineering Security Intern](https://jobright.ai/jobs/info/6b064bea3e56157448ed4a94) · Sunnyvale, CA, United States · On Site · posted Nov 24
 - 2026-11-25 · **Robotics** · PACCAR — [2027 Summer Internship: Design Engineer- Autonomous Vehicle Platform](https://jobright.ai/jobs/info/6af7df4f35427cce9bb2a5e7) · Denton, TX, United States · On Site · posted Nov 24
 - 2026-11-26 · **Cybersecurity** · Venmo — [Cybersecurity Intern - Summer 2027](https://jobright.ai/jobs/info/6aebe47eef3e65925305a38e) · San Jose, CA, United States · On Site · posted Nov 26 · via Jobright
+- 2026-11-26 · **Cybersecurity** · Illumio — [Security Platforms Engineer Intern - Security Platforms](https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45/application?embed=true) · Sunnyvale, CA · posted Nov 23 · via SimplifyJobs
