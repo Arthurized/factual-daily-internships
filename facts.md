@@ -14,3 +14,4 @@ One random fact per entry, collected over time.
 - 2026-11-25 10:27 — Shakespeare invented the word "assassination" and "bump."
 - 2026-11-26 12:58 — Thirty-five percent of people who use personal ads for dating are already married.
 - 2026-11-26 13:04 — Anne Boleyn, Queen Elizabeth I's mother, had six fingers on one hand.
+- 2026-11-27 15:23 — The six official languages of the U.N. are: English, French, Arabic, Chinese, Russian and Spanish.
