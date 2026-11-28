@@ -27,3 +27,4 @@ One random fact per entry, collected over time.
 - 2026-11-28 17:34 — Tom Sawyer was the first novel written on a typewriter.
 - 2026-11-28 17:35 — When a Hawaiian woman wears a flower over her left ear, it means that she is not available.
 - 2026-11-28 17:40 — It was discovered on a space mission that a frog can throw up. The frog throws up its stomach first, so the stomach is dangling out of its mouth. Then the frog uses its forearms to dig out all of the stomach`s contents and then swallows the stomach back down.
+- 2026-11-28 17:44 — The word "set" has more definitions than any other word in the English language.
