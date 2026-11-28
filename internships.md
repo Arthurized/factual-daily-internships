@@ -19,3 +19,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Sim
 - 2026-11-28 · **Robotics** · Schaeffler — [Co-op Mechatronics Engineering - Summer 2027](https://jobright.ai/jobs/info/6a8ff948d96ad228f125f2ed) · Troy, MI, United States · On Site · posted Nov 28 · via Jobright
 - 2026-11-28 · **Robotics** · Tesla — [Robotics Audio DSP Engineer Intern](https://www.tesla.com/careers/search/job/291227) · Palo Alto, CA · posted Nov 25 · via SimplifyJobs
 - 2026-11-28 · **Robotics** · Genentech — [Software Engineer Intern - Robotics - Lab Automation](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Software-Engineer--Robotics----Lab-Automation_202611-129832) · South SF · posted Nov 23 · via SimplifyJobs
+- 2026-11-28 · **Robotics** · Neros Technologies — [Autonomy Intern](https://job-boards.greenhouse.io/nerostechnologies/jobs/5273167007) · Torrance, CA · posted Nov 21 · via SimplifyJobs
