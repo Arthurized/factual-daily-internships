@@ -16,3 +16,4 @@ One random fact per entry, collected over time.
 - 2026-11-26 13:04 — Anne Boleyn, Queen Elizabeth I's mother, had six fingers on one hand.
 - 2026-11-27 15:23 — The six official languages of the U.N. are: English, French, Arabic, Chinese, Russian and Spanish.
 - 2026-11-28 16:59 — Marilyn Monroe had six toes.
+- 2026-11-28 17:10 — Sailfish can leap out of the water and into the air at a speed of 50 miles (81 km) per hour.
