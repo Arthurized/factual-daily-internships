@@ -17,3 +17,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Sim
 - 2026-11-28 · **Cybersecurity** · Navy Federal — [Security Workflow Engineer Intern](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32382) · Vienna, VA · posted Sep 09 · via SimplifyJobs
 - 2026-11-28 · **Cybersecurity** · Verkada — [Security Software Engineer Intern](https://job-boards.greenhouse.io/verkada/jobs/5213881007) · San Mateo, CA · posted Aug 25 · via SimplifyJobs
 - 2026-11-28 · **Robotics** · Schaeffler — [Co-op Mechatronics Engineering - Summer 2027](https://jobright.ai/jobs/info/6a8ff948d96ad228f125f2ed) · Troy, MI, United States · On Site · posted Nov 28 · via Jobright
+- 2026-11-28 · **Robotics** · Tesla — [Robotics Audio DSP Engineer Intern](https://www.tesla.com/careers/search/job/291227) · Palo Alto, CA · posted Nov 25 · via SimplifyJobs
