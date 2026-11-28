@@ -19,3 +19,4 @@ One random fact per entry, collected over time.
 - 2026-11-28 17:10 — Sailfish can leap out of the water and into the air at a speed of 50 miles (81 km) per hour.
 - 2026-11-28 17:25 — Camels chew in a figure 8 pattern.
 - 2026-11-28 17:28 — The site with the highest number of women visitors between the age of 35 and 44 years old: Alka-Seltzer.com
+- 2026-11-28 17:28 — Until 1994, world maps and globes sold in Albania only had Albania on them.
