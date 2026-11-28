@@ -29,3 +29,4 @@ One random fact per entry, collected over time.
 - 2026-11-28 17:40 — It was discovered on a space mission that a frog can throw up. The frog throws up its stomach first, so the stomach is dangling out of its mouth. Then the frog uses its forearms to dig out all of the stomach`s contents and then swallows the stomach back down.
 - 2026-11-28 17:44 — The word "set" has more definitions than any other word in the English language.
 - 2026-11-28 17:46 — When the University of Nebraska Cornhuskers play football at home, the stadium becomes the state`s third largest city.
+- 2026-11-28 17:48 — Odds of being killed by lightening? 1 in 2million/killed in a car crash? 1 in 5,000/killed by falling out of bed? 1 in 2million/killed in a plane crash? 1 in 25 million.
