@@ -15,3 +15,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Sim
 - 2026-11-28 · **Cybersecurity** · Nintendo — [Software Engineer Intern - Platform Security](https://careers.nintendo.com/?gh_jid=4469778009) · Redmond, WA · posted Oct 28 · via SimplifyJobs
 - 2026-11-28 · **Cybersecurity** · Intuit — [Software Engineer Intern - Cybersecurity](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616) · Mountain View, CA · posted Sep 14 · via SimplifyJobs
 - 2026-11-28 · **Cybersecurity** · Navy Federal — [Security Workflow Engineer Intern](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32382) · Vienna, VA · posted Sep 09 · via SimplifyJobs
+- 2026-11-28 · **Cybersecurity** · Verkada — [Security Software Engineer Intern](https://job-boards.greenhouse.io/verkada/jobs/5213881007) · San Mateo, CA · posted Aug 25 · via SimplifyJobs
