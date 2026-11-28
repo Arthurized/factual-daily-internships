@@ -20,3 +20,4 @@ Cybersecurity, Robotics and Software Engineering internships, collected from Sim
 - 2026-11-28 · **Robotics** · Tesla — [Robotics Audio DSP Engineer Intern](https://www.tesla.com/careers/search/job/291227) · Palo Alto, CA · posted Nov 25 · via SimplifyJobs
 - 2026-11-28 · **Robotics** · Genentech — [Software Engineer Intern - Robotics - Lab Automation](https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Software-Engineer--Robotics----Lab-Automation_202611-129832) · South SF · posted Nov 23 · via SimplifyJobs
 - 2026-11-28 · **Robotics** · Neros Technologies — [Autonomy Intern](https://job-boards.greenhouse.io/nerostechnologies/jobs/5273167007) · Torrance, CA · posted Nov 21 · via SimplifyJobs
+- 2026-11-28 · **Robotics** · Pivotal Software — [Autonomy Intern - Autonomy - Path Planning](https://jobs.lever.co/pivotal/092eb283-16ac-4f68-a6e9-b6a0a9564067/apply) · Palo Alto, CA · posted Nov 19 · via SimplifyJobs
