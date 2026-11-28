@@ -24,3 +24,4 @@ One random fact per entry, collected over time.
 - 2026-11-28 17:30 — The placement of a donkey`s eyes in its` heads enables it to see all four feet at all times!
 - 2026-11-28 17:30 — The surface of the human skin is 6.5 square feet (2m).
 - 2026-11-28 17:31 — In America you will see an average of 500 advertisements a day.
+- 2026-11-28 17:34 — Tom Sawyer was the first novel written on a typewriter.
